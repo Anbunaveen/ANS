@@ -1,0 +1,17 @@
+#include<sdio.h>
+int main()
+{
+int A;
+if(A==0)
+{
+prinf("GIVEN NUMBER IS ZERO");
+else
+{
+if(A>0)
+prinf("THE GIVEN NUMBER IS POSITIVE");
+else
+printf("THE GIVE NUMBER IS NEGATIVE");
+}
+}
+return 0;
+}
