@@ -1,18 +1,16 @@
-#include<sdio.h>
+#include<stdio.h>
 int main()
 {
 int A;
 scanf("%d",&A);
 if(A==0)
-{
-prinf("GIVEN NUMBER IS ZERO");
+printf("GIVEN NUMBER IS ZERO");
 else
 {
 if(A>0)
-prinf("THE GIVEN NUMBER IS POSITIVE");
+printf("THE GIVEN NUMBER IS POSITIVE");
 else
 printf("THE GIVE NUMBER IS NEGATIVE");
-}
 }
 return 0;
 }
