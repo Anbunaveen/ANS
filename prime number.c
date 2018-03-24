@@ -13,8 +13,8 @@ break;
 }
 }
 if(p==1)
-printf("yes it is a prime number");
+printf("yes");
 else
-printf("not a prime number");
+printf("not");
 return 0;
 }
