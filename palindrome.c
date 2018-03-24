@@ -13,8 +13,8 @@ n=n/10;
 
 }
 if(rev==m)
-printf( "%d is palindrome",rev);
+printf( "yes");
 else
-printf("%d is not a palindrome",rev);
+printf("not");
 return 0;
 }
